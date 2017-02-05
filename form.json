@@ -1,0 +1,56 @@
+{
+    "status":
+    [
+        { "code": 101, "icon": "inactive", "caption": "Instanz wird erstellt" },
+        { "code": 102, "icon": "active", "caption": "Instanz ist aktiv" },
+        { "code": 104, "icon": "inactive", "caption": "Instanz ist inaktiv" }
+      ],
+    "elements":
+    [
+        { "name": "Open", "type": "CheckBox", "caption": "Aktiv" },
+        { "type": "Label", "label": "Angabe der MAC-Adresse(n) (Format 00:00:00:00:00:00):" },
+        { "type": "ValidationTextBox", "name": "MAC0", "caption": "MAC-Adresse 1:" },
+        { "type": "CheckBox", "name": "LoggingMAC0", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC1", "caption": "MAC-Adresse 2:" },
+        { "type": "CheckBox", "name": "LoggingMAC1", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC2", "caption": "MAC-Adresse 3:" },
+        { "type": "CheckBox", "name": "LoggingMAC2", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC3", "caption": "MAC-Adresse 4:" },
+        { "type": "CheckBox", "name": "LoggingMAC3", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC4", "caption": "MAC-Adresse 5:" },
+        { "type": "CheckBox", "name": "LoggingMAC4", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC5", "caption": "MAC-Adresse 6:" },
+        { "type": "CheckBox", "name": "LoggingMAC5", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC6", "caption": "MAC-Adresse 7:" },
+        { "type": "CheckBox", "name": "LoggingMAC6", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC7", "caption": "MAC-Adresse 8:" },
+        { "type": "CheckBox", "name": "LoggingMAC7", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC8", "caption": "MAC-Adresse 9:" },
+        { "type": "CheckBox", "name": "LoggingMAC8", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC9", "caption": "MAC-Adresse 10:" },
+        { "type": "CheckBox", "name": "LoggingMAC9", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC10", "caption": "MAC-Adresse 11:" },
+        { "type": "CheckBox", "name": "LoggingMAC10", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC11", "caption": "MAC-Adresse 12:" },
+        { "type": "CheckBox", "name": "LoggingMAC11", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC12", "caption": "MAC-Adresse 13:" },
+        { "type": "CheckBox", "name": "LoggingMAC12", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC13", "caption": "MAC-Adresse 14:" },
+        { "type": "CheckBox", "name": "LoggingMAC13", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC14", "caption": "MAC-Adresse 15:" },
+        { "type": "CheckBox", "name": "LoggingMAC14", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC15", "caption": "MAC-Adresse 16:" },
+        { "type": "CheckBox", "name": "LoggingMAC15", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC16", "caption": "MAC-Adresse 17:" },
+        { "type": "CheckBox", "name": "LoggingMAC16", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC17", "caption": "MAC-Adresse 18:" },
+        { "type": "CheckBox", "name": "LoggingMAC17", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC18", "caption": "MAC-Adresse 19:" },
+        { "type": "CheckBox", "name": "LoggingMAC18", "caption": "Logging aktivieren" },
+        { "type": "ValidationTextBox", "name": "MAC19", "caption": "MAC-Adresse 20:" },
+        { "type": "CheckBox", "name": "LoggingMAC19", "caption": "Logging aktivieren" },
+        { "type": "Label", "label": "Wiederholungszyklus in Sekunden (0 -> aus, 30 sek -> Minimum)" },
+        { "type": "IntervalBox", "name": "Messzyklus", "caption": "Messzyklus (sek)" }
+    ]
+}
+
